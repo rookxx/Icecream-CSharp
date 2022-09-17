@@ -1,0 +1,7 @@
+services:
+  icecream-dev:
+    build: ../.devcontainer
+    container_name: icecream-dev
+    volumes:
+      - ..:/app
+    command: sleep infinity
